@@ -11,15 +11,21 @@ main {
 }
 
 /* Responsive grand écrans */
-
-@media screen and (min-width: 874px) {
-    .content {
-        margin: 10% 5% 10% 5%;
+@media screen and (min-width: 871px) {
+    .page-acc {
+        margin-top: 0;
     }
     .card-a:hover {
         box-shadow: 40px 40px 40px 40px #00000059;
     }
-    
+}
+
+
+.titre-page {
+    text-align: center;
+    font-size: 60px;
+    color: #0f5787;
+
 }
 
 /* Partie activités */
@@ -29,7 +35,6 @@ section {
 }
 .titre-activites {
     color: #0f5787;
-    font-weight: bold;
     margin: 15px 0 15px 0;
     font-size: 60px;
 }
